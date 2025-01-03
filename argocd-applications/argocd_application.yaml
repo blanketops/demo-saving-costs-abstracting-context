@@ -14,7 +14,7 @@ metadata:
 spec:
   project: default
   sources:
-  - repoURL: https://github.com/blanketops/demo-partial-example.git
+  - repoURL: https://github.com/blanketops/demo-saving-costs-abstracting-context.git
     path: examples
     targetRevision: main
     directory:

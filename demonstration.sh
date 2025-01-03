@@ -21,8 +21,8 @@ source $HOME/.bach_profile
 
 
 kubectl create secret generic aws-secret -n crossplane-system --from-file=creds=secrets/./aws-credentials.txt
-kubectl apply -f provider-aws.yaml
-kubectl apply -f provider-terraform.yaml
+kubectl apply -f providers/provider-aws.yaml
+kubectl apply -f providers/provider-terraform.yaml
 
-kubectl apply -f provider-config-terraform.yaml
-kubectl apply -f provider-config-localstack.yaml
+kubectl apply -f provider-configs/provider-config-terraform.yaml
+kubectl apply -f provider-configs/provider-config-localstack.yaml
