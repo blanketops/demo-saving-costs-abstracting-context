@@ -13,6 +13,6 @@ spec:
       }
     }
     provider "aws" {
-      access-key = ""
-      secret-access-key=""
+      access-key = "test"
+      secret-access-key="test"
     }

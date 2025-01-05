@@ -11,8 +11,8 @@ nodes:
     listenAddress: "0.0.0.0"
     protocol: TCP
 
-- role: worker
-  image: kindest/node:v1.30.4
+# - role: worker
+#   image: kindest/node:v1.30.4
 
-- role: worker
-  image: kindest/node:v1.30.4
+# - role: worker
+#   image: kindest/node:v1.30.4
